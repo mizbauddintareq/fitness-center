@@ -78,3 +78,45 @@
 .box img {
   width: 100px;
 }
+.about-us {
+  background: black;
+  color: white;
+}
+.about-us .title {
+  text-align: center;
+  font-size: 50px;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-left {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.about-right {
+  width: 50%;
+}
+.about-left img {
+  height: 550px;
+  width: 300px;
+}
+.about-right button {
+  background: red;
+  color: white;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+}
+.about-right h1 {
+  font-size: 40px;
+}
+.about-right h3 {
+  font-size: 20px;
+  color: gray;
+  margin: 20px 0;
+}
